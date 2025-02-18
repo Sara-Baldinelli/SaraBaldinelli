@@ -6,7 +6,7 @@ project:
 website:
   title: "My website"
   description: "I am a bioinformatician"
-  site-url: https://sara-baldinelli.github.io/SaraBaldinelli
+  site-url: https://Sara-Baldinelli.github.io/SaraBaldinelli
   repo-url: https://github.com/Sara-Baldinelli/SaraBaldinelli
   # favicon: logo.png
   twitter-card: true
