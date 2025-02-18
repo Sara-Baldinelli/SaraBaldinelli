@@ -1,5 +1,5 @@
 ---
-title: "Finley Malloc"
+title: "Sara Baldinelli"
 about:
   template: trestles
   image: avatar.jpg
