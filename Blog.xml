@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>My website</title>
+<title>Sara Baldinelli</title>
 <link>https://Sara-Baldinelli.github.io/SaraBaldinelli/Blog.html</link>
 <atom:link href="https://Sara-Baldinelli.github.io/SaraBaldinelli/Blog.xml" rel="self" type="application/rss+xml"/>
 <description>I am a bioinformatician</description>
