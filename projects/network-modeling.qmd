@@ -7,6 +7,7 @@ author:
 institute: "University of Trento, Trento 38123, Italy"
 date: "2025-02-18"
 format: pdf
+image: code.jpg
 ---
 
 # Introduction
