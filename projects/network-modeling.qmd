@@ -1,0 +1,98 @@
+---
+title: "Modeling Ion Channel Dynamics via Exact Stochastic Techniques"
+author:
+  - Sara Baldinelli
+  - Letizia De Pietri
+  - Roan Spadazzi
+institute: "University of Trento, Trento 38123, Italy"
+date: "2025-02-18"
+format: pdf
+---
+
+# Introduction
+
+Membrane potential is the difference in electric charge across the membrane of a cell and is a key driver for excitable cells like neurons. Changes in neuronal membrane potential are partially caused by the random opening and closing of voltage-gated ion channels (mainly Potassium and Calcium). This biophysical process is relevant to model as it allows investigation into the electrical dynamics underlying neuronal functioning, signaling, and disease.
+
+This paper presents two pathwise stochastic representations with stochastic counting processes implying exact simulation algorithms. Previously, only approximate simulation methods were used in neuroscience. We compare an approximate method (PDMP) against the presented stochastic strategy, revealing divergence in trajectories despite identical noise sources. 
+
+We employ an alternative, more recent approach: the Rejection-based Stochastic Simulation Algorithm (RSSA), proving that neuronal dynamics are well captured by this exact strategy and suggesting further developments for system description.
+
+# Model Description & Implementation
+
+## RTC Representation
+
+This representation simulates the opening and closing of ion channels as a Poisson process. The switching of the ion channel states (open/close) is modeled as events occurring at random intervals drawn from an exponential distribution.
+
+```math
+X(t) = X_0 + \sum_k Y_k \left( \int_0^t \lambda_k(V(s),X(s))ds \right) \zeta_k
+```
+
+## Gillespie Representation
+
+This representation models the opening and closing of ion channels iteratively. The waiting time between events is sampled from an exponential distribution, and the transition propensities depend on the voltage and the current state.
+
+```math
+X(t) = X(0) + \sum_{k=1}^{M} \zeta_k \int_0^t 1\{\xi_{R_0}(s-) \in [q_{k-1}(s-), q_k(s-)]\} dR_0(s)
+```
+
+# Algorithm Comparison
+
+## Algorithm 1: Random Time Change
+
+```r
+X = Initial number of molecules of each species
+V = Initial voltage
+t = 0
+Set tMax
+For each k, τk = 0, Tk = 0
+...
+```
+
+## Algorithm 2: Gillespie
+
+```r
+X = Initial number of molecules of each species
+V = Initial voltage
+t = 0
+Set tMax
+...
+```
+
+# Applying the Morris-Lecar System
+
+The Morris-Lecar system is used to model both the continuous voltage and the discrete number of open/closed ion channels.
+
+```math
+dV/dt = \frac{1}{C} \left( I_{app} - g_L(V - V_L) - g_{Ca} \frac{M}{M_{tot}} (V - V_{Ca}) - g_K \frac{N}{N_{tot}} (V - V_K) \right)
+```
+
+# Paper Results
+
+A comparison of RTC and approximate methods shows that piecewise constant approximations lead to delayed dynamics. The RSSA method speeds up computation by reducing the number of propensity calculations.
+
+# RSSA Implementation
+
+RSSA applies an acceptance-rejection-based sampling technique to avoid unnecessary propensity recalculations.
+
+```r
+initialState = [Mtot, ceil(Ntot/2), 0, ceil(Ntot/2)];
+initialV = -50;
+v = vPlus - vMinus;
+c = [alpha_m(initialV), beta_m(initialV), alpha_n(initialV), beta_n(initialV)];
+delta = 0.1;
+```
+
+# Discussion
+
+Exact stochastic methods like RTC and RSSA improve upon approximate algorithms. RSSA provides significant computational efficiency, reducing the number of propensity calculations. Future improvements include integrating machine learning approaches to predict voltage behavior and applying the model to human neurons.
+
+# Conclusion
+
+Exact stochastic simulations provide an alternative to widely used approximations in neuroscience. RSSA improves computational efficiency while preserving simulation accuracy. Future developments could explore stochastic shielding or neural network-assisted simulations for better performance.
+
+# References
+
+1. Carlo Laing and Gabriel J Lord. *Stochastic methods in neuroscience*. OUP Oxford, 2009.  
+2. John A White, Jay T Rubinstein, and Alan R Kay. *Channel noise in neurons*. Trends in neurosciences, 2000.  
+3. David F Anderson, Bard Ermentrout, and Peter J Thomas. *Stochastic representations of ion channel kinetics*. Journal of computational neuroscience, 2015.  
+4. Thanh Vo Hong, Roberto Zunino, et al. *RSSA: a rejection-based stochastic simulation algorithm*, 2013.
