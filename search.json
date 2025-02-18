@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "projects/contemplative-ecology.html",
-    "href": "projects/contemplative-ecology.html",
-    "title": "Contemplative Ecology",
-    "section": "",
-    "text": "Learning about the natural world just by contemplating it"
-  },
-  {
     "objectID": "Blog.html",
     "href": "Blog.html",
     "title": "Blog",
@@ -39,7 +32,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Computational Ecology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContemplative Ecology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "Publications.html",
@@ -47,12 +40,5 @@
     "title": "Publications",
     "section": "",
     "text": "Articles\n\nQuintero, Rodríguez‐Sánchez, Jordano (2022) Reciprocity and interaction effectiveness in generalised mutualisms among free‐living species. Ecology Letters 26 (1): 132-146. [PDF]\nRodríguez-Sanchez, Pérez-Luque, Bartomeus, Varela (2016) Ciencia reproducible: ¿qué, por qué, cómo?. Ecosistemas 25 (2): 83-92\n\n\n\nBook chapters"
-  },
-  {
-    "objectID": "projects/computational-ecology.html",
-    "href": "projects/computational-ecology.html",
-    "title": "Computational Ecology",
-    "section": "",
-    "text": "A computational approach to tough questions in ecology"
   }
 ]

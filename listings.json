@@ -8,9 +8,6 @@
   },
   {
     "listing": "/Projects.html",
-    "items": [
-      "/projects/computational-ecology.html",
-      "/projects/contemplative-ecology.html"
-    ]
+    "items": []
   }
 ]
