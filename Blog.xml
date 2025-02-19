@@ -10,24 +10,24 @@
 <atom:link href="https://Sara-Baldinelli.github.io/SaraBaldinelli/Blog.xml" rel="self" type="application/rss+xml"/>
 <description>I am a bioinformatician</description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Mon, 21 Oct 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 21 Jan 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>The value of contemplative ecology</title>
-  <dc:creator>John Doe</dc:creator>
+  <title>…</title>
+  <dc:creator>Sara Baldinelli</dc:creator>
   <link>https://Sara-Baldinelli.github.io/SaraBaldinelli/posts/another-post.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p><img src="https://Sara-Baldinelli.github.io/SaraBaldinelli/projects/contemplation.jpg" class="img-fluid"></p>
+<p><img src="https://Sara-Baldinelli.github.io/SaraBaldinelli/projects/image.jpg" class="img-fluid"></p>
 
 
 
  ]]></description>
-  <category>contemplative</category>
+  <category>computational</category>
   <guid>https://Sara-Baldinelli.github.io/SaraBaldinelli/posts/another-post.html</guid>
-  <pubDate>Mon, 21 Oct 2024 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The value of computational ecology</title>
