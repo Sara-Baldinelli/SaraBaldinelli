@@ -1,10 +1,10 @@
 ---
-title: "The value of contemplative ecology"
-description: "Some thoughts about it"
-author: "John Doe"
-date: "2024-10-21"
+title: "..."
+description: "..."
+author: "Sara Baldinelli"
+date: "2025-01-21"
 categories:
-  - contemplative
+  - computational
 ---
 
-![](../projects/contemplation.jpg)
+![](../projects/image.jpg)
