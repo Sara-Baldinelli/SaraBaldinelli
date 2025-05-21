@@ -1,12 +1,12 @@
 [
   {
+    "listing": "/Projects.html",
+    "items": []
+  },
+  {
     "listing": "/Blog.html",
     "items": [
       "/posts/another-post.html"
     ]
-  },
-  {
-    "listing": "/Projects.html",
-    "items": []
   }
 ]

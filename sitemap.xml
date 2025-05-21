@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/Blog.html</loc>
-    <lastmod>2025-02-19T11:52:04.315Z</lastmod>
+    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/posts/another-post.html</loc>
+    <lastmod>2025-05-21T09:05:05.467Z</lastmod>
   </url>
   <url>
     <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/index.html</loc>
-    <lastmod>2025-02-19T11:52:04.317Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/Projects.html</loc>
-    <lastmod>2025-02-19T11:52:04.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/posts/another-post.html</loc>
-    <lastmod>2025-02-19T11:52:04.317Z</lastmod>
+    <lastmod>2025-05-21T09:05:05.467Z</lastmod>
   </url>
   <url>
     <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/Publications.html</loc>
-    <lastmod>2025-02-19T11:52:04.315Z</lastmod>
+    <lastmod>2025-05-21T09:05:05.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/Projects.html</loc>
+    <lastmod>2025-05-21T09:05:05.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Sara-Baldinelli.github.io/SaraBaldinelli/Blog.html</loc>
+    <lastmod>2025-05-21T09:05:05.465Z</lastmod>
   </url>
 </urlset>

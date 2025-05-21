@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "Blog.html",
-    "href": "Blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "…\n\n\n\n\n\n\ncomputational\n\n\n\n…\n\n\n\n\n\nJan 21, 2025\n\n\nSara Baldinelli\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sara Baldinelli",
@@ -18,7 +11,7 @@
     "href": "index.html#education",
     "title": "Sara Baldinelli",
     "section": "Education",
-    "text": "Education\nUniversity of Trento, Italy | San Diego, CA MSc in Quantitative and Computational Biology | Sept 2023 - present\nSapienza University | Rome, Italy BSc in Bioinformatics | Sept 2020 - June 2023"
+    "text": "Education\nUniversity of Trento | Trento, Italy MSc in Quantitative and Computational Biology | Sept 2023 - present\nSapienza University | Rome, Italy BSc in Bioinformatics | Sept 2020 - June 2023"
   },
   {
     "objectID": "index.html#experience",
@@ -28,6 +21,13 @@
     "text": "Experience\nBioinformatics Intern at EMBL, Heidelberg, Germany | February 2025 - present\nBioinformatics Intern at Regina Elena National Cancer Institute, Rome, Italy | February 2023 - June 2024"
   },
   {
+    "objectID": "Publications.html",
+    "href": "Publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Articles\n\nPallocca, Betti, Baldinelli, Palombo, Bucci, Mazzarella, Tonon, Ciliberto (2024) Clinical bioinformatics desiderata for molecular tumor boards. Briefings in Bioinformatics\nGallo, Guardiani, Betti, Arteni, Di Martino, Baldinelli, Daralioti, Merenda, Ascione, Visca, Pescarmona, Lavitrano, Nisticò, Ciliberto, Pallocca (2024) AI drives the assessment of lung cancer microenvironment composition. Journal of Pathology Informatics\nGrassucci, Sperandio, Ticconi, Massacci, Baldinelli, Betti, Pallocca (2024) Auto-GO: Reproducible, Robust and High Quality Ontology Enrichment Visualizations. 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+  },
+  {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
@@ -35,10 +35,10 @@
     "text": "No matching items"
   },
   {
-    "objectID": "Publications.html",
-    "href": "Publications.html",
-    "title": "Publications",
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Articles\n\nPallocca, Betti, Baldinelli, Palombo, Bucci, Mazzarella, Tonon, Ciliberto (2024) Clinical bioinformatics desiderata for molecular tumor boards. Briefings in Bioinformatics\nGallo, Guardiani, Betti, Arteni, Di Martino, Baldinelli, Daralioti, Merenda, Ascione, Visca, Pescarmona, Lavitrano, Nisticò, Ciliberto, Pallocca (2024) AI drives the assessment of lung cancer microenvironment composition. Journal of Pathology Informatics\nGrassucci, Sperandio, Ticconi, Massacci, Baldinelli, Betti, Pallocca (2024) Auto-GO: Reproducible, Robust and High Quality Ontology Enrichment Visualizations. 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    "text": "…\n\n\n\ncomputational\n\n\n\n…\n\n\n\n\n\nJan 21, 2025\n\n\nSara Baldinelli\n\n\n\n\n\nNo matching items"
   }
 ]
